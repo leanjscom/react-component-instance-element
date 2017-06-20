@@ -1,4 +1,4 @@
-# React Koans
+# React Components, Instances and Elements
 
 This is a simple set of exercises to introduce some React key concepts. The concepts your are going to learn are:
   - React Component
@@ -21,6 +21,14 @@ Make sure you have Node and git installed.
 Execute in your console: `yarn test`
 
 You need to fix the tests by editing this file /exercise/virtual-dom.spec.js. There are comments with hints in the file. The idea is to make you think of why those assertions work or not.
+
+## Questions
+
+1- When does React create Elements? Hint https://goo.gl/JTYuPH
+2- The Virtual Dom is a tree of Elements, Instances, or Components?
+3- When does React create Instances?
+4- Do we ever create Instances? components = new MyComponent()
+5- What is a detached Component?
 
 ## Further reading
 
