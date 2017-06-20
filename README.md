@@ -24,11 +24,11 @@ You need to fix the tests by editing this file /exercise/virtual-dom.spec.js. Th
 
 ## Questions
 
-1- When does React create Elements? Hint https://goo.gl/JTYuPH
-2- The Virtual Dom is a tree of Elements, Instances, or Components?
-3- When does React create Instances?
-4- Do we ever create Instances? components = new MyComponent()
-5- What is a detached Component?
+1. When does React create Elements? Hint https://goo.gl/JTYuPH
+2. The Virtual Dom is a tree of Elements, Instances, or Components?
+3. When does React create Instances?
+4. Do we ever create Instances? components = new MyComponent()
+5. What is a detached Component?
 
 ## Further reading
 
