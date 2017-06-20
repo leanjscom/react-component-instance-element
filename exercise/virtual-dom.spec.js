@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import TestUtils from 'react-dom/test-utils'
 import { expect } from 'chai'
+import '../jsdom-setup'
 import TodoList,{ ListItem } from '../src/TodoList'
 
 describe('React Compoment, React Instance and React Element:', () => {
