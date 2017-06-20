@@ -1,51 +1,30 @@
 # React Koans
 
 This is a simple set of exercises to introduce some React key concepts. The concepts your are going to learn are:
-  - Props
-  - State
   - React Component
   - React Instance
   - React Element
 
 You are also going to practise unit testing with React using:
-  - Mocha
+  - Jest
   - Chai
-  - Sinon
-  - Enzyme
-  - Jsdom
   - React Test Utilities
 
 ## Installation
 
-Make sure you have Node.js installed.
+Make sure you have Node and git installed.
 
-  1. `git clone https://github.com/alexlbr/react-koans`
-  2. `cd react-koans`
-  3. `npm install`
+`git clone git@github.com:leanjscom/react-component-instance-element.git && cd react-component-instance-element && yarn instal`
 
-##  Exercises
+##  Exercise
 
-### Koans 1:
+Execute in your console: `yarn test`
 
-Execute in your console: `npm run test-koans-1`
+You need to fix the tests by editing this file /exercise/virtual-dom.spec.js. There are comments with hints in the file. The idea is to make you think of why those assertions work or not.
 
-Tests will tell you there are some errors. You need to fix them by editing these 2 files:
- - koans-1/tasks/Task_1.js
- - koans-1/tasks/Task_2.js
+## Further reading
 
-### Koans 2:
-
-Execute in your console: `npm run test-koans-2`
-
-Tests of Koans 2 are broken, you need to fix the tests by editing this file:
- - koans-2/tasks/1-React-VirtualDom.spec.js
-
-### Koans 3:
-
-Execute in your console: `npm run test-koans-3`
-
-Tests of Koans 3 are broken, you need to fix the tests by editing this file:
- - koans-3/tasks/app.spec.js
+https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html
 
 ## License
 
