@@ -4,7 +4,7 @@
   "description": "This is a simple set of exercises to introduce some key concepts in React. The concepts your are going to learn are: Props, State, React Component, React Instance, React Element",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest --noStackTrace --watch"
   },
   "keywords": [
     "react, reactjs, koans, react instance, react component, react element, state, props"
@@ -20,11 +20,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "chai": "^3.5.0",
-    "enzyme": "^2.4.1",
     "jest": "^20.0.4",
-    "jsdom": "^9.1.0",
-    "mocha": "^2.4.5",
-    "react-addons-test-utils": "^15.0.2",
-    "sinon": "^1.17.4"
+    "jsdom": "^9.1.0"
   }
 }
