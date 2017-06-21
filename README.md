@@ -14,7 +14,7 @@ You are also going to practise unit testing with React using:
 
 Make sure you have Node and git installed.
 
-`git clone git@github.com:leanjscom/react-component-instance-element.git && cd react-component-instance-element && yarn instal`
+`git clone git@github.com:leanjscom/react-component-instance-element.git && cd react-component-instance-element && yarn install`
 
 ##  Exercise
 
