@@ -8,13 +8,14 @@ import TodoList,{ ListItem } from '../src/TodoList'
 describe('React Compoment, React Instance and React Element:', () => {
 
   it('JSX creates React Elements.', () => {
+
     const am_I_a_component = <TodoList/>
 
     // change this var
     const __CHANGE_ME__ = '????'
 
     // hint, uncomment next line to see the object in the console:
-    // console.log(am_I_a_component)
+    console.log(am_I_a_component)
 
     expect(`Symbol(${__CHANGE_ME__})`).to.be.equal(am_I_a_component['$$typeof'].toString())
   })
@@ -32,7 +33,7 @@ describe('React Compoment, React Instance and React Element:', () => {
 
     // hint, uncomment next line to see the object in the console:
     // console.log('--------->',reactElement)
-
+   const instance = new TodoList()
     //An assertion library would give you many clues and it would be too easy, that's why we are throwing an Error with a custom message instead
     if ('CHANGE THIS' !== typeof reactElement.addTask) {
       throw new Error('The typeof(reactElement.addTask) is not correct')
@@ -56,7 +57,7 @@ describe('React Compoment, React Instance and React Element:', () => {
     const detachedComp_1 = TestUtils.renderIntoDocument(<TodoList/>)
     const detachedComp_2 = TestUtils.renderIntoDocument(<TodoList/>)
 
-    if (detachedComp_1 === detachedComp_1) {
+    if (detachedComp_1 === detachedComp_2) {
       throw new Error('Are you sure detachedComp_1 and detachedComp_2 are the same instance?')
     }
   })
