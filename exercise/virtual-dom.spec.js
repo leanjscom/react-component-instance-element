@@ -62,8 +62,8 @@ describe('React Compoment, React Instance and React Element:', () => {
   })
 
   it('ReactDOM.render should return the same React Instance for the same component (they are not detached).', () => {
-    const component_1 = ReactDOM.render(<TodoList/>, document.getElementById('app'))
-    const component_2 = ReactDOM.render(<TodoList/>, document.getElementById('app'))
+    const component_1 = ReactDOM.render(<TodoList/>, document.getElementById('root'))
+    const component_2 = ReactDOM.render(<TodoList/>, document.getElementById('root'))
 
     if (component_1 === component_2) {
       throw new Error('Are you sure component_1 and component_2 are the same instance?')
