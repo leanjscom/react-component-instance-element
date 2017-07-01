@@ -57,7 +57,7 @@ describe('React Compoment, React Instance and React Element:', () => {
     const detachedComp_1 = TestUtils.renderIntoDocument(<TodoList/>)
     const detachedComp_2 = TestUtils.renderIntoDocument(<TodoList/>)
 
-    if (detachedComp_1 === detachedComp_2) {
+    if (detachedComp_1 !== detachedComp_2) {
       throw new Error('Are you sure detachedComp_1 and detachedComp_2 are the same instance?')
     }
   })
