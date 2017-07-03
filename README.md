@@ -32,7 +32,9 @@ You need to fix the tests by editing this file /exercise/virtual-dom.spec.js. Th
 
 ## Further reading
 
+https://medium.com/@fay_jai/react-elements-vs-react-components-vs-component-backing-instances-14d42729f62
 https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html
+https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca
 
 ## License
 
